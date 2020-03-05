@@ -12,3 +12,33 @@
   max-width: 1184px;
   margin: 0 auto 102px;
 }
+@media (max-width: 1440px) {
+  .video {
+    max-width: 1184px;
+    margin: 0 auto 102px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .video {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 375px) {
+  .video {
+    max-width: 343px;
+  }
+}
+
+@media (max-width: 320px) {
+  .video {
+    max-width: 288px;
+  }
+}

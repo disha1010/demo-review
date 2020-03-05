@@ -1,2 +1,8 @@
 @import "./__heading/url__heading.css";
 @import "./__link/url__link.css";
+
+@media (max-width: 375px) {
+  .url {
+    display: none;
+  }
+}

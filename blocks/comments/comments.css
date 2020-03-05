@@ -1,6 +1,31 @@
 @import "./__container/comments__container.css";
 
-.comments {
-  max-width: 1184px;
-  margin: 0 auto 102px;
+@media (max-width: 1440px) {
+  .comments {
+    max-width: 1184px;
+    margin: 0 auto 102px;
+  }
+}
+@media (max-width: 1024px) {
+  .comments {
+    max-width: 925px;
+  }
+}
+
+@media (max-width: 768px) {
+  .comments {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 375px) {
+  .comments {
+    max-width: 343px;
+  }
+}
+
+@media (max-width: 320px) {
+  .comments {
+    max-width: 288px;
+  }
 }
