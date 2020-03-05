@@ -1,0 +1,14 @@
+@import "./__title/video__title.css";
+@import "./__subtitle/video__subtitle.css";
+@import "./__container/video__container.css";
+@import "./__item/video__item.css";
+@import "./__bg/video__bg.css";
+@import "./__rect/video__rect.css";
+@import "./__image/video__image.css";
+@import "./__icon/video__icon.css";
+@import "./__duration/video__duration.css";
+
+.video {
+  max-width: 1184px;
+  margin: 0 auto 102px;
+}

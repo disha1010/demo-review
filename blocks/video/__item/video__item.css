@@ -1,0 +1,11 @@
+.video__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 583px;
+  height: 323px;
+  padding: 30px;
+  box-sizing: border-box;
+}
