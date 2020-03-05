@@ -1,0 +1,8 @@
+@import "./__link/nav__link.css";
+@import "./__item/nav__item.css";
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
