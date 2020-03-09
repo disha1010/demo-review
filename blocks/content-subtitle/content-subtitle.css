@@ -1,16 +1,16 @@
-@media (max-width: 1440px) {
-  .content-subtitle {
-    width: 640px;
-    margin: 0 auto 72px;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 35px;
-    color: #ffffff;
-    text-align: center;
-  }
+@import "./_small-margin/content-subtitle_small-margin.css";
+
+.content-subtitle {
+  width: 640px;
+  margin: 0 auto 72px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+  text-align: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .content-subtitle {
     width: 100%;
     font-size: 16px;
@@ -19,7 +19,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .content-subtitle {
     margin-bottom: 40px;
   }

@@ -8,3 +8,15 @@
 .place {
   margin-bottom: 72px;
 }
+
+@media (max-width: 1024px) {
+  .place {
+    margin-bottom: 81px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+    margin-bottom: 48px;
+  }
+}

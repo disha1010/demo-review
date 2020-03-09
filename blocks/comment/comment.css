@@ -2,14 +2,23 @@
 @import "./__author-name/comment__author-name.css";
 @import "./__text/comment__text.css";
 
-@media (max-width: 1440px) {
-  .comment {
-    max-width: 382px;
-  }
+.comment {
+  max-width: 382px;
+  margin-right: 19px;
 }
 
-@media (max-width: 768px) {
+.comment:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 1024px) {
   .comment {
+    text-align: center;
     margin-bottom: 48px;
+    margin-right: 0;
+  }
+
+  .comment:last-child {
+    margin-bottom: 0;
   }
 }

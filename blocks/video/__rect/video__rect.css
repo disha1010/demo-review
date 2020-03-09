@@ -6,3 +6,21 @@
   background-color: rgba(0,0,0, 0.5);
   border-radius: 5px;
 }
+
+@media (max-width: 1280px) {
+  .video__rect {
+    height: 288px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .video__rect {
+    height: 200px;
+  }
+}
+
+@media (max-width: 375px) {
+  .video__rect {
+    height: 192px;
+  }
+}
