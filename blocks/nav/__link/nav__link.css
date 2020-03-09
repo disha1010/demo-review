@@ -1,0 +1,9 @@
+.nav__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav__link:hover {
+  color: #aaaaaa;
+  transition: 0.3s;
+}

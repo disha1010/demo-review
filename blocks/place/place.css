@@ -1,2 +1,22 @@
 @import "./__title/place__title.css";
+@import "./__url/place__url.css";
 @import "./__row/place__row.css";
+@import "./__desc/place__desc.css";
+@import "./__text/place__text.css";
+@import "./__image/place__image.css";
+
+.place {
+  margin-bottom: 72px;
+}
+
+@media (max-width: 1024px) {
+  .place {
+    margin-bottom: 81px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+    margin-bottom: 48px;
+  }
+}

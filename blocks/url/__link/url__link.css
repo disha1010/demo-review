@@ -1,0 +1,27 @@
+.url__link {
+  position: relative;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.url__link:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.url__link:hover {
+  color: #aaaaaa;
+  transition: 0.3s;
+}
+
+.url__link:hover:after {
+  background-color: #aaaaaa;
+  transition: 0.3s;
+}

@@ -1,0 +1,24 @@
+@import "./__author-photo/comment__author-photo.css";
+@import "./__author-name/comment__author-name.css";
+@import "./__text/comment__text.css";
+
+.comment {
+  max-width: 382px;
+  margin-right: 19px;
+}
+
+.comment:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 1024px) {
+  .comment {
+    text-align: center;
+    margin-bottom: 48px;
+    margin-right: 0;
+  }
+
+  .comment:last-child {
+    margin-bottom: 0;
+  }
+}
